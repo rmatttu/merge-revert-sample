@@ -8,3 +8,6 @@ source dev.sh
 
 # output "hello" in console
 echo hello
+
+# output "hello2" in console
+echo hello2
