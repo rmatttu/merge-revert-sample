@@ -15,4 +15,8 @@ new_function_3 () {
   echo hello world!!!
 }
 
+new_function_4 () {
+  echo hello
+}
+
 echo hello
