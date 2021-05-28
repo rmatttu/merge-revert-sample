@@ -17,3 +17,6 @@ echo hello3
 
 # output "hello4" in console
 echo hello4
+
+# output "hello5" in console
+echo hello5
