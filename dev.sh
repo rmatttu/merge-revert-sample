@@ -8,7 +8,11 @@ new_function_1 () {
 }
 
 new_function_2 () {
-  echo hello world
+  echo hello
+}
+
+new_function_3 () {
+  echo hello world!!!
 }
 
 echo hello
