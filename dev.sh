@@ -20,7 +20,8 @@ new_function_4 () {
 }
 
 new_function_5 () {
-  echo Add bug
+  # echo Add bug
+  echo Fixed bug
 }
 
 echo hello
