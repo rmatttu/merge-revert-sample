@@ -19,4 +19,8 @@ new_function_4 () {
   echo hello
 }
 
+new_function_5 () {
+  echo Add bug
+}
+
 echo hello
