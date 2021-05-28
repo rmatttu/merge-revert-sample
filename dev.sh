@@ -24,4 +24,8 @@ new_function_5 () {
   echo Fixed bug
 }
 
+new_function_6 () {
+  echo abc
+}
+
 echo hello
