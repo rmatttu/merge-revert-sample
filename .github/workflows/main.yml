@@ -1,0 +1,29 @@
+name: ifelse saple
+on:
+  push:
+    branches:
+      - master
+    tags:
+		  - "*"
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out codes
+        uses: actions/checkout@v2
+
+      - name: echo hello
+        id: echo_hello
+        run:  echo "hello"
+
+      - name: echo event
+        id: echo_event
+        run:  echo ${{github.event_name}}
+
+      - name: echo ref
+        run:  echo ${{github.ref}}
+
+      - name: echo repository url
+        run:  echo ${{github.repositoryUrl}}
+
+
