@@ -26,6 +26,14 @@ jobs:
       - name: echo repository url
         run:  echo ${{github.repositoryUrl}}
 
+      - name: always true
+        if: true
+        run:  echo "TRUE"
+
+      - name: always false
+        if: false
+        run:  echo "FALSE"
+
       - name: tagging only step
         if: startsWith(github.ref, 'refs/tags/')
         run:  echo tagging only step
